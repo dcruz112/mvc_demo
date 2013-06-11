@@ -1,0 +1,18 @@
+<%= form_for(@mammal) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :netid, "NetID" %><br>
+    <%= f.text_field :netid %>
+  </div>
+  <div class="field">
+    <%= f.label :class_year %><br>
+    <%= f.text_field :class_year %>
+  </div>
+
+   <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

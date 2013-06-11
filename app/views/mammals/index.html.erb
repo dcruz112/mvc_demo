@@ -1,0 +1,19 @@
+<h1>All the Mammals!!!!</h1>
+
+<table>
+	<tr>
+		<td class = "header"> ID </td>
+		<td class = "header"> Name </td>
+		<td class = "header"> NetId </td>
+		<td class = "header"> Class Year </td>
+	</tr>
+
+<% @mammals.each do |mammal| %>
+	<tr>
+		<td><%= mammal.id %> </td>
+		<td><%= link_to mammal.name, mammal_path(mammal.id)  %></td>
+		<td><%= mammal.netid %></td>
+		<td><%= mammal.class_year %></td>
+	</tr>
+<% end %>
+</table>
