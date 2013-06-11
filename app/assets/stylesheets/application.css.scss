@@ -12,18 +12,3 @@
  *= require_tree .
  */
 
-table {
-		
-	border-collapse: collapse;
-	
-	.header {
-		font-weight: bold;
-	}
-
-	tr td {
-	padding: 2em;
-	padding-top: 0;
-	vertical-align: top;
-	border: solid 1px black
-	}
-}
