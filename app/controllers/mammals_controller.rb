@@ -6,7 +6,6 @@ class MammalsController < ApplicationController
 	end
 
 	def show
-		@mammal = Mammal.find(params[:id])
 	end
 
 	def new
@@ -14,7 +13,6 @@ class MammalsController < ApplicationController
 	end
 
 	def edit
-		@mammal = Mammal.find(params[:id])
 	end
 
 	def update
